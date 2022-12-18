@@ -112,6 +112,7 @@ def python(x):
     print(result)
 python(x)
 
-
+x=123
+print(x)
 
 
