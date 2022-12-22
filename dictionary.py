@@ -17,24 +17,24 @@
 # print(type(x))
 # x=dict()     # this is recomanded
 # print(type(x))
-
+#
 # a={}
 # print(type(a))
 # a={1:100,'A':200,10.5:'HELLO'}
 # print(a)
-
-
-#x={'A':100,'B':100,'A':30,'A':'python','B':"python"}
-
-# how to access dic values
-# we can get values using keys
+#
+#
+# x={'A':100,'B':100,'A':30,'A':'python','B':"python"}
+#
+# # how to access dic values
+# # we can get values using keys
 # x={'A':100,'B':200,'C':'HELLO'}
 # print(x['B'])
 # print(x['C'])
-# #get
+# # #get
 # print(x.get('C'))
 # print(x.get('A'))
-
+#
 # print(x)
 # print(x.values())
 # print(x.keys())
@@ -42,31 +42,33 @@
 # print(type(a))
 # print(x['A'])
 # print(x['B'])
+#
 
 
-
-# # list
+#  # list
 # a=[]
-# a=list()  # recommanded
+# print(type(a))
+#
+# a=list()
+# print(type(a))# recommanded
 # a=tuple()  #
-
+# #
+# # print(a)
 # a.append(1)
 # a.append(2)
-# print(a)
+# print(type(a))
 
 # here A,B,C are keys nd 10,20,'python' is values
-# x=dict() #{}
-# x['A']=10
-# x['B']=20
-# x['C']="PYTHON"
+# /x=6
 # print(x)
-
+#
+#
 # x={'A':1,'B':2,'C':3}
 # print(type(x))
-# Access the ele in dic
-# get
-z={100:"python",200:"JAVA",300:"C",100:"HI JAVA"}  # 100,200,300  keys
-# print(z[200])
+# # Access the ele in dic
+# # get
+# z={100:"python",200:"JAVA",300:"C",100:"HI JAVA"}  # 100,200,300  keys
+# # print(z[200])
 # print(z[300])
 # print(z.get(100))
 # # print(z[300])
@@ -410,15 +412,15 @@ print(z)
 #     x[key]=val+10
 # print(x)
 
-
-# x=[1,2,3]
+#
+# x={1,2,3}
 #
 # for i,j in enumerate(x):
-#     print([i,j])
-
-
+#     print({i,j})
+#
+#
 # x={'A':10,'B':20}     #    x={'A':110,'B':220}
 # for i,j in x.items():
 #     x[i]=j*j
 # print(x)
-
+#
