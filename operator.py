@@ -18,17 +18,16 @@ b=2
 # print(a**3) # 5*5*5 # exponent
 # print(pow(a,2)) # 9*9
 # print(5/2)
-
+#
 # print(math.pow(4,3))
 # print(pow(4,3))
 # print((4**3))
-
-# + * these two r already overloaded
+ # + * these two r already overloaded
 # + useful for concantinte two strings  here two variables should b strings  only
 # * when we do multipliction on strings the varibles(one should b string and another one should b integer)
 
-# x=10
-# y=20
+# x="10"
+# y="20"
 # print(x+y)
 # x="NAGA"
 # y="PYTHON"
@@ -43,6 +42,7 @@ b=2
 
 
 # x="Python"   #python2
+# z=2
 # y=str(2)
 # print(x+y)
 
@@ -58,10 +58,11 @@ b=2
 # b=3
 # print(a*b)
 #
-# x=[1,2,3]
-# y=[4,5,6]
+# x=(1,2,3)
+# y=(4,5,6)
 # print(x+y)
-# print(x*3)
+# /print(x*3)
+
 
 #
 # if u want to multifly the string one operend should be integer
@@ -90,26 +91,27 @@ b=2
 
 #print(a<3)
 #print(a>b)
-#print(b<4)
-#print(5>a)
+# print(b<4)
+# print(5>a)
 #print(b<a)
 # print(a<=5)
-# print(len("hi")>5)
+# print(len("anjii")>5)
 
 #A-z -> ascci values 65 to 90
 #a-z  -> ascci values  97-122
 
 
-# a="AB" # 97-122
-# b='AB' # 65-90
-# # print("acii",ord(a))
-# # print("acii",ord(b))
-# # print("ascci",ord(' '))
+# A="AB" # 97-122
+# B='AB' # 65-90
+# print("acii",ord(65))
+# print("acii",ord(b))
+# print("ascci",ord(' '))
 # print(a>=b)
-#
+
 # a='B'
 # print(ord(a))
 #
+
 # a='C'
 # print(ord(a))
 #
@@ -148,6 +150,7 @@ b=2
 # a=ord("A")+32  # 97
 # b=ord('a')
 # print(a==b)
+
 
 # a=97
 # print(chr(a))
@@ -203,7 +206,7 @@ a=10
 # a=0  #false
 # print(not a)  #
 # print(not 0)  # True
-a=5 #True
+# a=5 #True
 # print(not a ) # True
 # print( not 0)
 # print( not 1)
@@ -211,23 +214,23 @@ a=5 #True
 # print(not(a>1 and b<a))
 # print((not(a>1) or b>1))
 # print(not(a))
-
+# print(not b)
 
 # Assignment ope  -> WE can combine assignmnet opertor with any other ope
 # this the combination of two operators but the operation should be in two variables
 b=5
 a=10
-# a=a+b # 10+5
-# print(a)
-# a+=b  # a=a+b # a=15
-# a/=b # a=a/b
-# print(a)
-# a=b//a
-# print(a)
-# b*=a #b=b*a
-# print(b)
-# a//=b # a=a//b(2.0)
-# print(a)
+a=a+b # 10+5
+print(a)
+a+=b  # a=a+b # a=15
+a/=b # a=a/b
+print(a)
+a=b//a
+print(a)
+b*=a #b=b*a
+print(b)
+a//=b # a=a//b(2.0)
+print(a)
 # b-=a #b=b-a # 5-2=3
 # print(b)
 # a*=b # a=a*b
@@ -263,13 +266,13 @@ a=10
 # b=0
 
 a,b=10,20
-# print(a)
-# print(b)
-# a=a+20
-# b=b+30
-# c=50
-# a,b,c=a+20,b+30,50
-# print(a,b,c)
+print(a)
+print(b)
+a=a+20
+b=b+30
+c=50
+a,b,c=a+20,b+30,50
+print(a,b,c)
 
 # syntax -> varibale = varibale if cond else val
 a,b=10,20
@@ -280,12 +283,12 @@ a,b=10,20
 # d= c+50 if (a!=b) else a
 # d*=10
 # print(d)
-
+#
 # if((a>5 and b<3)):
 #     print(b)
 # else:
 #     print("HI python")
-#print(c)
+# print(c)
 
 # logical
 #And or No
