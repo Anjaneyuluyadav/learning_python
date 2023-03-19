@@ -251,8 +251,8 @@ x=[1,4,6,7,4,7]
 # print(x)
 x=[1,4,6,7,4,7]
 
-# print(list(sorted(x)))
-# print(list(sorted(x,reverse=True)))
+print(list(sorted(x)))
+print(list(sorted(x,reverse=True)))
 
 # Reverse -> used for to revrse the list
 #print(x[::-1])
@@ -343,7 +343,11 @@ x=[1,2,4]
 # x=['Ab','Cd','Ef'] # [ab,cd,ef]
 # y=[i.lower() for i in x]
 # print(y)
-x=[1,2,3,1,3,5] # rmemove the duplicates from the list [1,2,3,5]
-out=[]                  # [1,2,3]
-y=[out.append(i) for i in x if i not in out]
-print(out)
+# x=[1,2,3,1,3,5] # rmemove the duplicates from the list [1,2,3,5]
+# out=[]                  # [1,2,3]
+# y=[out.append(i) for i in x if i not in out]
+# print(out)
+z=[1,2,3,4,5,2,31,1,1,3]
+top=[]
+a=[top.append(i)for i in z if i not in top]
+print(top)
