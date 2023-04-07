@@ -206,21 +206,21 @@ x={'A':[1,2,3,4],'B':(100,'python'),'C':300} # update used for to update the val
 # x.clear()
 # print(x)
 #x={}
-
-x='Hel$%#lo$$55##'
-y=list(x)
-out=[]
-for i in range(len(y)):
-    if x[i].isalpha():
-        out.append(x[i])
-    elif  x[i].isnumeric():
-           if x[i] not in out:
-               out.append(x[i])
-    else:
-        if x[i] not in out:
-            out.append(x[i])
-
-print(out)
+#
+# x='Hel$%#lo$$55##'
+# y=list(x)
+# out=[]
+# for i in range(len(y)):
+#     if x[i].isalpha():
+#         out.append(x[i])
+#     elif  x[i].isnumeric():
+#            if x[i] not in out:
+#                out.append(x[i])
+#     else:
+#         if x[i] not in out:
+#             out.append(x[i])
+#
+# print(out)
 
 # clear
 # it removes the all elements in dic
