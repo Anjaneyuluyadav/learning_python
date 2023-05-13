@@ -5,14 +5,14 @@
 # while i<li:
 #     if i==sno:
 #         i=i+1
-# #     print()
-# n=4
-# i=1
-# for o in range(1,n+1):
-#     for i in range(1,n+1):
-#         i=i+1
-#         print(i ,end="")
-#     print("")
+#     print()
+n=4
+i=1
+for o in range(1,n+1):
+    for i in range(1,n+1):
+        i=i+1
+        print(i ,end="")
+    print("")
 
     # tuple
     # tuple is same like a list but we can't chnage the values in tuple  [read only]
@@ -126,12 +126,12 @@
     # y[0]=1000
     # print(y)
     #
-    # x = (1, 10, 20, 30, 20)  # [10,100,200]
+    x = (1, 10, 20, 30, 20)  # [10,100,200]
     # y=list(x)
     # y=[i*10 for i in y ]
     # print(y)
-    # print(x.index(20))
-    # print(x.count(20))
+    print(x.index(20))
+    print(x.count(20))
 
     # accessing ele from tuple
     # x=tuple(range(1,11)) # immutable (1,2,3,4,5,6)   9,10
@@ -149,9 +149,9 @@
     # print(x[1::2])
 
     # tuple functions
-    #
-    # x = (1, 2, 3, 4)
-    # y = (4, 5, 4, 5)
+
+    x = (1, 2, 3, 4)
+    y = (4, 5, 4, 5)
 
     # z=(5,7,7,9)
     # print(x+y) #(1,2,4,5)
@@ -245,7 +245,7 @@
     # ass2 :
     # x=[1,2,3,4] -> [3,5,7]
 
-    # x = 'JAVA'
+    x = 'JAVA'
     # x=list(x)
     # j 1
     # A 2
@@ -253,24 +253,7 @@
 
     # for i in set(x):
     #     if i in x:
-#     #         print(i,x.count(i))
-# tu=10,20,30,40,50
-# print(type(tu))
-# li=len(tu)
-# pos=2
-# new=[int(input("eny"))]
-# if pos>=0 and pos<=li:
-#     if pos<li:
-#        print("valied")
-#        f=tu[0:pos:1]
-#        s=tu[pos:1:]
-#        t=f+tuple(new)+s
-#        print(t)
-#     else:
-#         print("invallied")
-#
+    #         print(i,x.count(i))
 
-def tips_transpose(lst):
-  return list(zip(*lst))
 
-print(tips_transpose([[2, 5, 6], [1, 3, 5], [8, 10, 12], [7, 9, 11]]))
+

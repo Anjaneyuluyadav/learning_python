@@ -14,9 +14,10 @@
 # print(type(x))
 # how to revrerse the list
 x=[10,3,6] # [6, 3, 10]
+
 # print(x[::-1])
-# temp=list(reversed(x))
-# print(temp)
+temp=list(reversed(x))
+print(temp)
 # for i in x:
 #     print(i,end=' ')
 # var=sorted(x)     # it will sort te elements in assedin order
@@ -28,7 +29,13 @@ x=[10,3,6] # [6, 3, 10]
 # x.reverse()
 # print(x)
 
-
+x=[4,5,6,80,3,5,1,2,0,76,3]  #douplicate are del assi val
+# s=set(x)
+# print(s)
+#
+x=[1,3,4,24,5,2,6,0]
+# print("direct conve",type(set(x)))
+# print("direct conve",set(x))
 
 x=[30,2,5,8]
 # x.sort()
@@ -72,11 +79,15 @@ x=[60,2,400,5,70,8]
 
 
 
-# x=[60,2,400,5,70,8] # [400,5,70]
+x=[60,2,400,5,70,8] # [400,5,70]
+# print(x[2:5],"\n","\t",x[1:4],"\n","\t","\t",x[1:2])
+
+
+
 # # syntax : [stindx:endix:seppingg]
 # #print(x[2:5])
 # print(x[::2])
-#print(x[-1])
+# print(x[-1])
 # print(x[len(x)-1])
 
 # nested list : list inside te list called nested list#
@@ -90,7 +101,7 @@ x=[[10,20,30],[40,50,60],[70,90,100]]   #[20,50,90]
 # print(x[1])
 # print(x[1][1])
 # print(x[2][1])
-
+#
 # print(x[0][-1])
 # print(x[1][-1])
 # print(x[2][-1])
@@ -101,21 +112,28 @@ x=[[10,20,30],[40,50,60],[70,90,100]]   #[20,50,90]
 # print(x[2][:2])
 # print(x[2][:len(x[2])-1])
 
-# x=[[10,20,30],[40,50,60],[70,90,100]]
-# # for i in range(len(x)):
-# #     print(x[i][::-1])
+x=[[10,20,30],[40,50,60],[70,90,100]]
 # for i in range(len(x)):
-#     temp=x[i]             #[10,20,30]
-#     for j in range(0,len(temp)):
-#         print(pow(temp[j],2),end=' ')
-#     print()
+    # print(x[i][::-1])
+# for i in range(len(x)):
 
+    # temp=x[i]             #[10,20,30]
+    # for j in range(0,len(temp)):
+    #     print(pow(temp[j],2),end=' ')
+    # print()
+
+
+x=[]
+print(type(x))
+x.append(2)
+x.append("anji")
+print(x)
 # append -> usedd for yto add te element into te list
 # append add te elements at last
-# x=[1,2]
-# x.append(3)  # 2
-# x.append(10) # 3
-# print(x)
+x=[1,2]
+x.append(3)  # 2
+x.append(10) # 3
+print(x)
 # x.append([40,50,60]) #4
 # print(x)
 # x.append({"j",'k'})

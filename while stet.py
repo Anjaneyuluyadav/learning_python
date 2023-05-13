@@ -3,7 +3,32 @@
 # while i<=n:
 #     print(n,"*",i,"=",n*i)
 #     i=i+1
+
+
+
+
+
 # # n=int(input("enyter a number:"))
+
+
+# n=int(input("enter any number:"))
+# i=1
+# s=0
+# while i<=n:
+#     print(n,"*",i,"=",n*i)
+#     i=i+1
+#     s=s+1
+#     if s%2==0:
+#         print(s)
+#         print("l mom/dad"'\n',"*********")
+#     else:
+#         print(s)
+#         print("hi anji")
+
+
+
+
+# n=int(input("enyter a number:"))
 # s=0
 # i=2
 # while i<=n:
@@ -16,7 +41,7 @@
 # n=int(input("enyter a number:"))
 #
 # i=1
-# while i%2 in n:
+# while i%2==0 in n:
 #     print(i)
 #     i=i+1
 
@@ -209,9 +234,9 @@ import time
 # print(list(sorted(x,reverse=True)))
 # print(len(sorted(x)))
 
-s="anji is a \"nice\" sessan"
-print(s)
-
-s='anji is a "nice" sessan'
-print(s)
+# s="anji is a \"nice\" sessan"
+# print(s)
+#
+# s='anji is a "nice" sessan'
+# print(s)
 
